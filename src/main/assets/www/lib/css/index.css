@@ -1,0 +1,133 @@
+@charset "utf-8";
+/* reset */
+body {
+  font-family: "微软雅黑";
+  font-size: 12px;
+  background: #efeff4;
+ 
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  outline: 0;
+}
+li {
+  list-style: none;
+}
+img,
+a img {
+  border: none;
+  vertical-align: middle;
+}
+input {
+  outline: none;
+}
+a {
+  color: #333;
+  text-decoration: none;
+  cursor: pointer;
+}
+i,
+em {
+  font-style: normal;
+  font-weight: normal;
+}
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+  clear: both;
+  height: 0px;
+  font-size: 0px;
+  visibility: hidden;
+  display: block;
+  content: " ";
+}
+
+.title{
+  height: 70px;
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 70px;
+  background:#fff;
+}
+.searchIn{
+  position:relative;
+  margin-bottom: 10px; 
+  padding: 0 10px 10px; 
+  background: #fff;
+}
+.searchInBox{
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  text-indent: 20px;
+  background: #f4f4f4;
+  border: 0;
+  border-radius: 30px; 
+}
+.search-val-inner {
+  display:none; 
+  padding:10px; 
+  background: #fff;
+  position: relative; 
+}
+.search-val-inner span{
+  display:inline-block;
+  margin-left: 5px;
+  color:#666;
+}
+.search{
+  width: 15px;
+  position: absolute;
+  top: 22px;
+  left: 50%;
+  margin-left: -38px;
+}
+.searchb{
+  width: 15px;
+  position: absolute;
+  top: 12px;
+  left: 50%;
+  margin-left: -20px;
+}
+
+.search-val-inner ul{
+  position: relative;
+  margin-top: 10px;
+	width:100%;
+	overflow-y:auto;
+  display:none;
+}
+.search-val-inner ul li{
+  display: none;
+}
+.search-value {
+  width: 90%;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  text-indent: 20px;
+  background: #f4f4f4;
+  border: 0;
+  border-radius: 30px
+}
+
+
+.g-related-cms{margin-top: 10px;}
+.g-relcms-list2{background:#fff;padding: 0 10px}
+.g-relcms-list li{ width:100%; height:auto; display:-webkit-box; overflow:hidden; padding:10px 0; border-bottom:1px solid #e6e6e6}
+.g-relcms-list li:first-of-type{border-top:1px solid #e6e6e6;}
+.g-relcms-list li .g-relcms-img{ width:auto; height:100px; display:block; overflow:hidden}
+.g-relcms-list li .g-relcms-img img{ width:140px; height:100px; display:block; overflow:hidden;border-radius:10px;}
+.g-relcms-list li .g-relcms-introd{ width:auto; height:auto; display:block; overflow:hidden; -webkit-box-flex:1; margin:0 0 0 10px;}
+.g-relcms-list li .g-relcms-introd strong{ width:100%; height:40px; line-height:20px; font-size:14px; font-weight:bold; color:#333; display:block; overflow:hidden}
+.g-relcms-list li .g-relcms-introd p{ width:100%; height:38px; line-height:18px; font-size:12px; font-weight:normal; color:#666; margin:2px 0 0 0; display:block; overflow:hidden}
+.g-relcms-list li .g-relcms-introd em{ width:100%; height:auto; font-size:12px; font-weight:normal; color:#666; margin:5px 0 0 0; display:block; overflow:hidden}
+.g-relcms-list li .g-relcms-introd em b{ width:auto; height:auto; float:left; font-weight:normal; color:#999; overflow:hidden; position:relative; zoom:1;}
+.g-relcms-list li .g-relcms-introd em b:nth-child(2){ margin-left: 10px;}
+.g-relcms-list li .g-relcms-introd em b span{ width:10px; height:10px; background-size:414px; position:absolute; left:0; top:2px;}
+.g-relcms-list li .g-relcms-introd em i{ width:auto; height:auto; float:left; font-weight:normal; font-style:normal; color:#999; margin:0 0 0 10px; overflow:hidden; position:relative; zoom:1;}
+.g-relcms-list li .g-relcms-introd em i span{ width:14px; height:10px; background-size:414px; position:absolute; left:0; top:1px;}
